@@ -18,41 +18,55 @@
                   <i class="fas fa-bars text-2xl"></i>
               </button>
               <!-- Navegação normal em telas médias+ -->
-              <nav class="hidden md:flex items-center space-x-8 mr-5">
+              <nav class="hidden md:flex items-center space-x-8 mr-5 p-5">
+                <a href="https://wa.me/5561998321740?text=Ol%C3%A1%2C%20tudo%20bem%3F%20Gostaria%20de%20entrar%20em%20contato%20para%20saber%20mais%20sobre%20os%20servi%C3%A7os%20jur%C3%ADdicos%20oferecidos.%20Poderiam%20me%20orientar%20sobre%20como%20proceder%3F">
+                  <button class="flex items-center space-x-2 text-white border border-white rounded-full px-4 py-2 hover:bg-white hover:text-[#780909] transition duration-500">
+                      <i class="fa-brands fa-whatsapp"></i>
+                      <p>Fale Conosco</p>
+                  </button>
+              </a>
+              <a href="https://wa.me/5561998321740?text=Ol%C3%A1%2C%20tudo%20bem%3F%20Gostaria%20de%20entrar%20em%20contato%20para%20saber%20mais%20sobre%20os%20servi%C3%A7os%20jur%C3%ADdicos%20oferecidos.%20Poderiam%20me%20orientar%20sobre%20como%20proceder%3F">
+                <button class="flex items-center space-x-2 text-white border border-white rounded-full px-4 py-2 hover:bg-white hover:text-[#780909] transition duration-500">
+                    <i class="fa-brands fa-instagram"></i>
+                    <p>Instagram</p>
+                </button>
+            </a>
                   <a href="#avaliacoes" class="text-white">Avaliações</a>
                   <a href="#sobre" class="text-white">Sobre</a>
                   <a href="#atuacao" class="text-white">Atuação</a>
-                  <a href="">
-                    <button class="flex items-center space-x-2 text-white border border-white rounded-full px-4 py-2 hover:bg-white hover:text-[#780909] transition duration-500">
-                        <i class="fa-brands fa-whatsapp"></i>
-                        <p>Contato</p>
-                    </button>
-                </a>
               </nav>
           </div>
       
           <!-- Menu mobile -->
-          <nav id="mobile-menu" class="hidden flex-col space-y-2 mt-4 md:hidden transition duration-1000">
-              <a href="" class="text-white block">Avaliações</a>
-              <a href="" class="text-white block">Sobre</a>
-              <a href="" class="text-white block">Atuação</a>
-              <a href="">
+          <nav id="mobile-menu" class="hidden flex-col space-y-2 mt-4 md:hidden transition duration-1500 p-5">
+              <a href="#avaliacoes" class="text-white block">Avaliações</a>
+              <a href="#sobre" class="text-white block">Sobre</a>
+              <a href="#atuacao" class="text-white block">Atuação</a>
+              <a href="" class="text-white block">
                   <button class="flex items-center space-x-2 text-white">
-                      <p>Contato</p>
-                      <i class="fa-brands fa-whatsapp"></i>
+                      <i class="fa-brands fa-whatsapp py-3"></i>
                   </button>
               </a>
+              <a href="">
+                <button class="flex items-center space-x-2 text-white">
+                    <i class="fa-brands fa-instagram"></i>
+                </button>
+            </a>
           </nav>
       </header>
         <main>
 
           <section id="banner" class="relative h-screen w-full bg-cover bg-center bg-no-repeat" style="background-image: url('img/imgBanner/img_banner.jpeg');">
-            <div class="absolute inset-0  bg-opacity-10"></div> <!-- overlay escuro opcional para melhor contraste -->
-            
-            <div class="absolute inset-0 flex items-center justify-center">
-              <h1 class="text-white text-center text-3xl md:text-5xl font-bold tracking-widest uppercase">
-                Advocacia com eficiência <br> e dedicação
+            <!-- Overlay escuro -->
+            <div class="absolute inset-0 bg-[rgba(0,0,0,0.6)]"></div>          
+            <!-- Conteúdo centralizado -->
+            <div class="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
+              <h1 class="text-white text-3xl md:text-5xl font-semibold mb-10">
+                Mergulhamos em sua história, aplicamos nossa expertise<br class="hidden md:block">  e dedicamos nosso cuidado para construir a solução jurídica que você precisa
               </h1>
+              <a href="https://wa.me/5561998321740?text=Ol%C3%A1%2C%20tudo%20bem%3F%20Gostaria%20de%20entrar%20em%20contato%20para%20saber%20mais%20sobre%20os%20servi%C3%A7os%20jur%C3%ADdicos%20oferecidos.%20Poderiam%20me%20orientar%20sobre%20como%20proceder%3F" class="bg-gradient-to-r from-red-700 to-red-900 font-semibold text-white px-6 py-3 rounded shadow-lg hover:from-red-600 hover:to-red-700 transition duration-500">
+                Entre em contato pelo Whatsapp
+              </a>
             </div>
           </section>
 
@@ -97,7 +111,7 @@
                 </div>
                 <div class="w-full lg:w-2/3">
                 <p class="mb-4">
-                    Trabalhamos duro para encontrar soluções eficazes e personalizadas para cada caso. Nossa abordagem é focada em:
+                    - Trabalhamos duro para encontrar soluções eficazes e personalizadas para cada caso. Nossa abordagem é focada em:
                 </p>
                 <p class="mb-4">
                     - Realizar acordos favoráveis: buscamos encontrar soluções extrajudiciais que atendam aos interesses de nossos clientes, evitando o transtorno e o custo de uma ação prolongada.
@@ -105,15 +119,18 @@
                 <p class="mb-4">
                     - Resolver situações de maneira eficiente: nos esforçamos para encontrar soluções rápidas e eficazes, minimizando o impacto nos negócios e na vida pessoal de nossos clientes.
                 </p>
-                <p>
+                <p class="mb-10">
                     - Defender os interesses dos nossos clientes: se necessário, ajuizamos ações para proteger os direitos e interesses de nossos clientes, trabalhando sistematicamente para obter resultados favoráveis.
                 </p>
+                <a href="https://wa.me/5561998321740?text=Ol%C3%A1%2C%20tudo%20bem%3F%20Gostaria%20de%20entrar%20em%20contato%20para%20saber%20mais%20sobre%20os%20servi%C3%A7os%20jur%C3%ADdicos%20oferecidos.%20Poderiam%20me%20orientar%20sobre%20como%20proceder%3F" class="bg-gradient-to-r from-red-100 to-red-200 font-semibold text-black px-10 py-3 rounded shadow-lg hover:from-red-200 hover:to-red-300 transition">
+                  Mande sua mensagem
+                </a>
                 </div>
             </div>
         </section>
 
         <section class="py-12 text-center" id="fundadora">
-            <h1 class="text-3xl font-semibold mb-6">Sócios</h1>
+            <h1 class="text-3xl font-semibold mb-6">Fundadora</h1>
             
             <img src="img/imgPerfil/img_perfil.png" alt="Adriana Marciano Lisboa"
                  class="w-55 h-55 lg:w-100 lg:h-100 rounded-full mx-auto mb-6 object-cover">
@@ -122,7 +139,7 @@
             <p class="text-sm text-gray-700 mb-6">OAB-DF 69.110</p>
             
             <div class="flex justify-center space-x-6">
-              <a href="#" class="text-[#780909] text-2xl">
+              <a href="mailto:contato@marcianolisboaadvocacia.com.br?subject=Olá, tudo bem? Gostaria de entrar em contato para saber mais sobre os serviços jurídicos oferecidos. Poderiam me orientar sobre como proceder?" class="text-[#780909] text-2xl">
                 <i class="fa-solid fa-envelope"></i>
               </a>
               <a href="#" class="text-[#780909] text-2xl">
@@ -213,11 +230,11 @@
       
               <!-- Informações -->
               <div class="flex flex-col space-y-4">
-                  <a href="https://wa.me/5561998321740" class="flex items-center space-x-2">
+                  <a href="https://wa.me/5561998321740?text=Ol%C3%A1%2C%20tudo%20bem%3F%20Gostaria%20de%20entrar%20em%20contato%20para%20saber%20mais%20sobre%20os%20servi%C3%A7os%20jur%C3%ADdicos%20oferecidos.%20Poderiam%20me%20orientar%20sobre%20como%20proceder%3F" class="flex items-center space-x-2">
                       <i class="fa-solid fa-mobile-screen-button"></i>
                       <p>(61) 9 9832-1740</p>
                   </a>
-                  <a href="contato@marcianolisboaadvocacia.com.br" class="flex items-center space-x-2">
+                  <a href="mailto:contato@marcianolisboaadvocacia.com.br?subject=Olá, tudo bem? Gostaria de entrar em contato para saber mais sobre os serviços jurídicos oferecidos. Poderiam me orientar sobre como proceder?" class="flex items-center space-x-2">
                       <i class="fa-solid fa-envelope"></i>
                       <p>contato@marcianolisboaadvocacia.com.br</p>
                   </a>
