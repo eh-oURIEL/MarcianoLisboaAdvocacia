@@ -46,8 +46,14 @@
       </header>
         <main>
 
-          <section id="banner">
-            <img src="img/img-escritorio1.jpg" alt="" style="height: 800px; width: 100%;">
+          <section id="banner" class="relative h-screen w-full bg-cover bg-center bg-no-repeat" style="background-image: url('img/imgBanner/img_banner.jpeg');">
+            <div class="absolute inset-0  bg-opacity-10"></div> <!-- overlay escuro opcional para melhor contraste -->
+            
+            <div class="absolute inset-0 flex items-center justify-center">
+              <h1 class="text-white text-center text-3xl md:text-5xl font-bold tracking-widest uppercase">
+                Advocacia com eficiência <br> e dedicação
+              </h1>
+            </div>
           </section>
 
           <section class="text-center my-20" id="atuacao">
@@ -55,17 +61,17 @@
             <div class="flex flex-wrap justify-between gap-4">
                 <div onclick="toggleCard(this)" class="card w-full sm:w-[45%] lg:w-[30%] rounded shadow-lg p-4 flex flex-col items-center justify-center mx-auto h-70 cursor-pointer transition duration-1000">
                     <img src="img/imgCards/Civil_logo.png" alt="" class="w-20 h-20 mb-4 card-img">
-                    <p class="font-semibold card-title">Direitos Civis</p>
+                    <p class="font-semibold card-title">Direito Civíl</p>
                     <p class="hidden card-desc text-center">Resolução de disputas civis, incluindo contratos, propriedade e mais.</p>
                 </div>
                 <div onclick="toggleCard(this)" class="card w-full sm:w-[45%] lg:w-[30%] rounded shadow-lg p-4 flex flex-col items-center justify-center mx-auto h-70 cursor-pointer transition duration-1000">
                     <img src="img/imgCards/familia_logo.png" alt="" class="w-20 h-20 mb-4 card-img">
-                    <p class="font-semibold card-title">Direito da Família</p>
+                    <p class="font-semibold card-title">Direito de Família</p>
                     <p class="hidden card-desc text-center">Divórcio, guarda de filhos, alimentos, inventário e mais</p>
                 </div>
                 <div onclick="toggleCard(this)" class="card w-full sm:w-[45%] lg:w-[30%] rounded shadow-lg p-4 flex flex-col items-center justify-center mx-auto h-70 cursor-pointer transition duration-1000">
                     <img src="img/imgCards/Criminal_logo.png" alt="" class="w-20 h-20 mb-4 card-img">
-                    <p class="font-semibold card-title">Direito Criminal</p>
+                    <p class="font-semibold card-title">Direito Penal</p>
                     <p class="hidden card-desc text-center">Defesa de acusados em processos criminais</p>
 
                 </div>
@@ -106,7 +112,7 @@
             </div>
         </section>
 
-        <section class="py-12 text-center" id="socios">
+        <section class="py-12 text-center" id="fundadora">
             <h1 class="text-3xl font-semibold mb-6">Sócios</h1>
             
             <img src="img/imgPerfil/img_perfil.png" alt="Adriana Marciano Lisboa"
