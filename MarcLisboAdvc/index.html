@@ -9,9 +9,22 @@
         <link rel="stylesheet" href="styless.css">        
         <title>Marciano Lisboa - Advocacia</title>
       </head>
-      <body class="bg-pink-25">
+      <body class="bg-pink-25 text-[#191b30]">
+        <div class="flex justify-center md:justify-between p-3 bg-[#191b30] text-white text-sm">
+          <div class="flex items-center gap-1 md:mx-10">
+              <a href="tel:+5561998321750">
+                <i class="fa-solid fa-phone"></i>
+                - (61) 9 9832-1740</a>
+          </div>
+          <div class="hidden md:flex items-center gap-1 mx-10">
+              <a href="mailto:contato@marcianolisboaadvocacia.com.br">
+                <i class="fa-solid fa-envelope"></i>
+                - contato@marcianolisboaadvocacia.com.br
+              </a>
+          </div>
+        </div>
         <header class="bg-[#780909] p-2">
-          <div class="flex items-center justify-between">
+          <div class="flex items-center justify-between"> 
               <img src="img/imgLogo/LogoMLAdvc.png" alt="" class="w-[150px] h-[150px] object-contain">
               <!-- Botão hamburguer -->
               <button id="menu-btn" class="text-white md:hidden mr-5">
@@ -25,7 +38,7 @@
                       <p>Fale Conosco</p>
                   </button>
               </a>
-              <a href="https://wa.me/5561998321740?text=Ol%C3%A1%2C%20tudo%20bem%3F%20Gostaria%20de%20entrar%20em%20contato%20para%20saber%20mais%20sobre%20os%20servi%C3%A7os%20jur%C3%ADdicos%20oferecidos.%20Poderiam%20me%20orientar%20sobre%20como%20proceder%3F">
+              <a href="https://www.instagram.com/marcianolisboaadvocacia/" target="_blank">
                 <button class="flex items-center space-x-2 text-white border border-white rounded-full px-4 py-2 hover:bg-white hover:text-[#780909] transition duration-500">
                     <i class="fa-brands fa-instagram"></i>
                     <p>Instagram</p>
@@ -42,14 +55,16 @@
               <a href="#avaliacoes" class="text-white block">Avaliações</a>
               <a href="#sobre" class="text-white block">Sobre</a>
               <a href="#atuacao" class="text-white block">Atuação</a>
-              <a href="" class="text-white block">
+              <a href="https://wa.me/5561998321740?text=Ol%C3%A1%2C%20tudo%20bem%3F%20Gostaria%20de%20entrar%20em%20contato%20para%20saber%20mais%20sobre%20os%20servi%C3%A7os%20jur%C3%ADdicos%20oferecidos.%20Poderiam%20me%20orientar%20sobre%20como%20proceder%3F" class="text-white block">
                   <button class="flex items-center space-x-2 text-white">
                       <i class="fa-brands fa-whatsapp py-3"></i>
+                      <p>Whatsapp</p>
                   </button>
               </a>
-              <a href="">
+              <a href="https://www.instagram.com/marcianolisboaadvocacia/" target="_blank" class="text-white block">
                 <button class="flex items-center space-x-2 text-white">
                     <i class="fa-brands fa-instagram"></i>
+                    <p>Instagram</p>
                 </button>
             </a>
           </nav>
@@ -75,30 +90,30 @@
             <div class="flex flex-wrap justify-between gap-4">
                 <div onclick="toggleCard(this)" class="card w-full sm:w-[45%] lg:w-[30%] rounded shadow-lg p-4 flex flex-col items-center justify-center mx-auto h-70 cursor-pointer transition duration-1000">
                     <img src="img/imgCards/Civil_logo.png" alt="" class="w-20 h-20 mb-4 card-img">
-                    <p class="font-semibold card-title">Direito Civíl</p>
+                    <p class="font-semibold card-title">Direito Civil</p>
                     <p class="hidden card-desc text-center">Resolução de disputas civis, incluindo contratos, propriedade e mais.</p>
                 </div>
                 <div onclick="toggleCard(this)" class="card w-full sm:w-[45%] lg:w-[30%] rounded shadow-lg p-4 flex flex-col items-center justify-center mx-auto h-70 cursor-pointer transition duration-1000">
                     <img src="img/imgCards/familia_logo.png" alt="" class="w-20 h-20 mb-4 card-img">
                     <p class="font-semibold card-title">Direito de Família</p>
-                    <p class="hidden card-desc text-center">Divórcio, guarda de filhos, alimentos, inventário e mais</p>
+                    <p class="hidden card-desc text-center">Divórcio, guarda de filhos, alimentos, inventário e mais.</p>
                 </div>
                 <div onclick="toggleCard(this)" class="card w-full sm:w-[45%] lg:w-[30%] rounded shadow-lg p-4 flex flex-col items-center justify-center mx-auto h-70 cursor-pointer transition duration-1000">
                     <img src="img/imgCards/Criminal_logo.png" alt="" class="w-20 h-20 mb-4 card-img">
                     <p class="font-semibold card-title">Direito Penal</p>
-                    <p class="hidden card-desc text-center">Defesa de acusados em processos criminais</p>
+                    <p class="hidden card-desc text-center">Defesa de acusados em processos criminais.</p>
 
                 </div>
                 <div onclick="toggleCard(this)" class="card w-full sm:w-[45%] lg:w-[30%] rounded shadow-lg p-4 flex flex-col items-center justify-center mx-auto h-70 cursor-pointer transition duration-1000">
                     <img src="img/imgCards/consumidor_logo.png" alt="" class="w-20 h-20 mb-4 card-img">
                     <p class="font-semibold card-title">Direito do Consumidor</p>
-                    <p class="hidden card-desc text-center">Defesa dos direitos dos consumidores em relação a empresas e fornecedores</p>
+                    <p class="hidden card-desc text-center">Defesa dos direitos dos consumidores em relação às empresas e fornecedores.</p>
 
                 </div>
                 <div onclick="toggleCard(this)" class="card w-full sm:w-[45%] lg:w-[30%] rounded shadow-lg p-4 flex flex-col items-center justify-center mx-auto h-70 cursor-pointer transition duration-1000">
                     <img src="img/imgCards/bancario_logo.png" alt="" class="w-20 h-20 mb-4 card-img">
                     <p class="font-semibold card-title">Direito Bancário</p>
-                    <p class="hidden card-desc text-center">Resolução de questões relacionadas a bancos e instituições financeiras e fraudes bancárias</p>
+                    <p class="hidden card-desc text-center">Resolução de questões relacionadas aos bancos, instituições financeiras e fraudes bancárias.</p>
                 </div>
             </div> 
         </section>
@@ -243,7 +258,7 @@
                       <i class="fa-solid fa-envelope"></i>
                       <p>contato@marcianolisboaadvocacia.com.br</p>
                   </a>
-                  <a href="" class="flex items-center space-x-2">
+                  <a href="https://www.instagram.com/marcianolisboaadvocacia/" class="flex items-center space-x-2">
                       <i class="fa-brands fa-instagram"></i>
                       <p>@marcianolisboaadvocacia</p>
                   </a>
